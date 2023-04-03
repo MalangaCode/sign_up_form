@@ -2,9 +2,11 @@
     font-family: Norse-Bold;
     src: url(./fonts/Norse-Bold.otf);
 }
+
 :root{
     font-size: 16px;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -13,10 +15,12 @@ body{
     height: 100vh;
     width: 100vw;
 }
-body :first-child{
+
+.logo-container{
     position: relative;
 }
-body > div > div{
+
+img[src="./images/photo-1.avif"] + div{ 
     position: absolute;
     top: 30%;
     left: 50%;
@@ -27,19 +31,19 @@ body > div > div{
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
-body > div > div > p{
+
+img[src="./images/odin-lined.png"] + p{
     font: 7rem 'Norse-Bold';
     margin: 0;
     align-self: center;
 }
 
-
 img[src="./images/photo-1.avif"]{
     width: 100%;
     height: auto;
 }
+
 img[src="./images/odin-lined.png"]{
     width: 100px;
     height: auto;
