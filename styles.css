@@ -23,7 +23,7 @@ body{
 
 .logo-container{
     position: relative;
-    background-image: url(./images/photo-1.avif);
+    background-image: url(./images/photo-1.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
 }
@@ -38,6 +38,21 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.logo-container > p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: .9rem;
+}
+.logo-container a {
+    color: white;
+    font-weight: 100;
+    text-decoration: underline;
 }
 
 img[src="./images/odin-lined.png"] + p{
