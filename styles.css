@@ -71,7 +71,7 @@ img[src="./images/odin-lined.png"]{
     height: auto;
     background-color: #f9fafb;
     display: grid;
-    grid: auto 1fr auto / auto;
+    grid: 1fr auto 1fr / auto;
 }
 
  .description{
@@ -133,7 +133,7 @@ input[type="password"]:invalid{
     border: 1px solid #b91c1c;
 
 }
-.form-row:after{
+.input-check:after{
     content: '* Password do not match';
     color: #b91c1c;
     margin: 0 0 0 3rem;
